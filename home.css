@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font: 24px 'Unica One', cursive;
+  background: black;
+}
+
+.landing {
+  background-image: url(landing-image.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.landing-hello {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.landing-header{
+  text-align: right;
+  color: white;
+  font: 15vh 'Unica One', cursive;
+}
+
+.contact {
+  background: black;
+  color: white;
+  height: 100vh;
+}
+
+.contact-facts {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.profile {
+  border-radius: 50%;
+}
